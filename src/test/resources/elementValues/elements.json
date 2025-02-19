@@ -1,0 +1,135 @@
+[
+  {
+    "key": "girisYapButton",
+    "value": "//a[text()='Giriş Yap']",
+    "type": "xpath"
+  },
+  {
+    "key": "emailInputInLoginPage",
+    "value": "input[name='email']",
+    "type": "css"
+  },
+  {
+    "key": "passwordInputInLoginPage",
+    "value": "input[name='password']",
+    "type": "css"
+  },
+  {
+    "key": "girisYapButtonInLoginPage",
+    "value": "input[type='submit']",
+    "type": "css"
+  },
+  {
+    "key": "smsCodeInput",
+    "value": "input[name='code']",
+    "type": "css"
+  },
+  {
+    "key": "gonderButtonInSmsVerificationPage",
+    "value": "input[type='submit']",
+    "type": "css"
+  },
+  {
+    "key": "profileIcon",
+    "value": "headlessui-popover-button-:rn:",
+    "type": "id"
+  },
+
+  {
+    "key": "alSatButton",
+    "value": "button[data-testid='navigation-swap']",
+    "type": "css"
+  },
+  {
+    "key": "alTab",
+    "value": "//button[text()='Al']",
+    "type": "xpath"
+  },
+  {
+    "key": "satTab",
+    "value": "//button[text()='Sat']",
+    "type": "xpath"
+  },
+  {
+    "key": "tradeValueInput",
+    "value": "input[data-testid='trade-input-inner']",
+    "type": "css"
+  },
+  {
+    "key": "buyCryptoButton",
+    "value": "//button[contains(@class, 'button-variant-filled-success')]",
+    "type": "xpath"
+  },
+
+  {
+    "key": "sellCryptoButton",
+    "value": "//button[contains(@class, 'button-variant-filled-danger')]",
+    "type": "xpath"
+  },
+  {
+    "key": "piyasalarTab",
+    "value": "li>a[href=\"/piyasalar\"]",
+    "type": "css"
+  },
+  {
+    "key": "solanoCurrency",
+    "value": "img[alt='SOL']",
+    "type": "css"
+  },
+  {
+    "key": "cuzdanIcon",
+    "value": "div[data-testid='wallet-badge']",
+    "type": "css"
+  },
+  {
+    "key": "hesapBakiyesiText",
+    "value": "//p[text()='Hesap bakiyesi']",
+    "type": "xpath"
+  },
+  {
+    "key": "tryWalletValue",
+    "value": "//div[text()='TRYB']/parent::div/parent::article/parent::td/parent::tr//p[@data-testid=\"number-text\"]//span[@data-testid=\"typography-text\"][1]",
+    "type": "xpath"
+  },
+  {
+    "key": "searchInputInWalletPage",
+    "value": "input[class='input-search']",
+    "type": "css"
+  },
+
+  {
+    "key": "solWalletValue",
+    "value": "//div[text()='SOL']/parent::div/parent::article/parent::td/parent::tr//p[@data-testid=\"number-text\"]//span[@data-testid=\"typography-text\"][1]",
+    "type": "xpath"
+  },
+  {
+    "key": "islemGecmisimText",
+    "value": "//p[text()='İşlem geçmişi']",
+    "type": "xpath"
+  },
+  {
+    "key": "islemGecmisiKayıdı",
+    "value": "//p[@data-testid='typography-text']/parent::td/parent::tr",
+    "type": "xpath"
+  },
+  {
+    "key": "alSatTabInIslemGecmisim",
+    "value": "//div[text()='Al / Sat']",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  }
+]

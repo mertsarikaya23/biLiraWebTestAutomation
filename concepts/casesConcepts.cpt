@@ -1,0 +1,111 @@
+
+# biLira anasayfasına gidilir
+* "https://www.bilira.co/" adresine git
+* "1" saniye bekle
+
+# Açılış Sayfasındaki Giriş Yap Butonuna tıklanır
+* Elementine tıkla "girisYapButton"
+* "1" saniye bekle
+
+# Login Sayfasının açıldığının kontrolü sağlanır
+* Son sekmeye odaklan
+* Check if current URL contains the value "https://id.bilira.co/login"
+* "1" saniye bekle
+
+# Kullanıcı adı <username> olarak girilir
+* Son sekmeye odaklan
+* "emailInputInLoginPage" elementini kontrol et
+* <username> textini "emailInputInLoginPage" elemente yaz
+
+# Şifre <password> olarak girilir
+* Son sekmeye odaklan
+* "passwordInputInLoginPage" elementini kontrol et
+* <password> textini "passwordInputInLoginPage" elemente yaz
+
+# Login sayfasındaki Giriş Yap Buttonuna tıklanır
+* Elementine tıkla "girisYapButtonInLoginPage"
+* "1" saniye bekle
+
+# Şifre <smsCode> olarak girilir
+* "smsCodeInput" elementini kontrol et
+* <smsCode> textini "smsCodeInput" elemente yaz
+
+# SMS Doğrulama sayfasındaki Gönder Buttonuna tıklanır
+* Elementine tıkla "gonderButtonInSmsVerificationPage"
+* "1" saniye bekle
+
+# Anasayfadaki Profil butonundan Login olunduğu kontrol edilir
+* "profileIcon" elementini kontrol et
+* "1" saniye bekle
+
+# biLira web sayfasına Login olunur
+* biLira anasayfasına gidilir
+* Açılış Sayfasındaki Giriş Yap Butonuna tıklanır
+* Login Sayfasının açıldığının kontrolü sağlanır
+* Kullanıcı adı "sarikaya.mert23@gmail.com" olarak girilir
+* Şifre "231108" olarak girilir
+* Login sayfasındaki Giriş Yap Buttonuna tıklanır
+* Şifre "111111" olarak girilir
+* SMS Doğrulama sayfasındaki Gönder Buttonuna tıklanır
+* Anasayfadaki Profil butonundan Login olunduğu kontrol edilir
+
+# Anasayfadaki Al/Sat Butonuna tıklanır
+* Elementine tıkla "alSatButton"
+* "1" saniye bekle
+
+# Al Tabına tıklanır
+* Elementine tıkla "alTab"
+* "1" saniye bekle
+
+# Sat Tabına tıklanır
+* Elementine tıkla "satTab"
+* "1" saniye bekle
+
+# Almak istediğiniz miktarı giriniz <value>
+* <value> textini "tradeValueInput" elemente yaz
+* "1" saniye bekle
+
+# Satmak istediğiniz miktarı giriniz <value>
+* <value> textini "tradeValueInput" elemente yaz
+* "1" saniye bekle
+
+# Piyasalar Tabına tıklanır
+* Elementine tıkla "piyasalarTab"
+* "1" saniye bekle
+
+# SOL/TRY çifti seçilir
+* Elementine tıkla "solanoCurrency"
+* "1" saniye bekle
+
+# Cüzdanım iconuna tıklanır
+* Elementine tıkla "cuzdanIcon"
+* "1" saniye bekle
+
+# SOLANO bakiyesi bir değişkende tutulur
+* "solWalletValue" elementinin değerini al ve "solCuzdanDeger" değişkeninde tut
+
+# TRY bakiyesi bir değişkende tutulur
+* "tryWalletValue" elementinin değerini al ve "tryCuzdanDeger" değişkeninde tut
+
+# Varlıklarım sayfasının açıldığının kontrolü sağlanır
+* "hesapBakiyesiText" elementini kontrol et
+
+# İşlem Geçmişim sayfasının açıldığının kontrolü sağlanır
+* "islemGecmisimText" elementini kontrol et
+
+# Input alanına SOL crypto parası yazılır
+* "SOL" textini "searchInputInWalletPage" elemente yaz
+* "1" saniye bekle
+
+# Solano al Buttonuna tıklanır
+* Elementine tıkla "buyCryptoButton"
+* "1" saniye bekle
+
+# İşlem Geçmişi sayfasından yapılan alım işleminin yansıdığının kontrolü sağlanır
+* "islemGecmisiKayıdı" elementini kontrol et
+
+# İşlem Geçmişim sayfasındaki Al/Sat tabına tıklanır
+* Elementine tıkla "alSatTabInIslemGecmisim"
+* "1" saniye bekle
+
+
